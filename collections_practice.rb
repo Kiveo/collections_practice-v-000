@@ -51,3 +51,13 @@ end
 def sum_array(array) #returns the sum of all numbers in an array
   array.inject() {|sum, n| sum + n}
 end
+
+def add_s(array) #adds "s" to each word in array, except for 2nd element of array.
+  array.collect do |word|
+    if word == array[1]
+      word
+    else
+      word + "s"
+    end
+  end
+end
