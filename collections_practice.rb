@@ -47,3 +47,7 @@ def find_a(array) #words that begin with "a" in a word array
   }
   new_array
 end
+
+def sum_array(array) #returns the sum of all numbers in an array
+  array.inject
+end
