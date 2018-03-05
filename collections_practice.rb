@@ -40,7 +40,7 @@ end
 
 def find_a(array) #words that begin with "a" in a word array
   new_array = []
-  array.each {|word| 
+  array.each {|word|
     if word.start_with?("a")}
       new_array << word
     end
