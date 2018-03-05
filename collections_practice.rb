@@ -32,9 +32,17 @@ def kesha_maker(array) #change third char to "$" on each element
   array.collect {|word|
     x = word.chars
     x[2] = "$"
-    # x.join
     new_array << x.join
     # binding.pry
   }
   new_array
+end
+
+def find_a(array) #words that begin with "a" in a word array
+  new_array = []
+  array.each {|word| 
+    if word.start_with?("a")}
+      new_array << word
+    end
+  }
 end
