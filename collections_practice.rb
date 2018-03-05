@@ -33,8 +33,8 @@ def kesha_maker(array) #change third char to "$" on each element
     x = word.chars
     x[2] = "$"
     x.join("--")
+    binding.pry
     new_array << x
-    # binding.pry
   }
   new_array
 end
