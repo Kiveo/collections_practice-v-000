@@ -10,3 +10,13 @@ def sort_array_char_count(array)
   #return an array, ascending, by number of chars
   array.sort_by { |arg| arg.length }
 end
+
+def swap_elements(array) #swap 2nd and 3rd elements
+  x = array.pop #1
+  y = array.pop #2
+  z = array.pop  #3
+  array << y
+  array << z
+  array << x
+  array
+end
