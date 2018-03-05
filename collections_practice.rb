@@ -43,6 +43,8 @@ def find_a(array) #words that begin with "a" in a word array
   array.each |word| do
     if word.start_with?("a")
       new_array << word
+    else
+      false
     end
   end
   new_array
