@@ -47,4 +47,5 @@ def find_a(array) #words that begin with "a" in a word array
       false
     end
   }
+  new_array
 end
