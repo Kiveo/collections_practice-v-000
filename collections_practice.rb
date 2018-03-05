@@ -8,5 +8,5 @@ end
 
 def sort_array_char_count(array)
   #return an array, ascending, by number of chars
-  array.sort { |element| element.length}
+  array.sort_by { |arg| arg.length }
 end
