@@ -31,9 +31,9 @@ def kesha_maker(array) #change third char to "$" on each element
   new_array = []
   array.collect {|word|
     x = word.chars
-    binding.pry
     x[2] = "$"
     new_array << x
+    binding.pry
   }
 
 end
