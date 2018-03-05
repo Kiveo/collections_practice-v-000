@@ -20,3 +20,7 @@ def swap_elements(array) #swap 2nd and 3rd elements
   array.unshift(z)
   array
 end
+
+def reverse_array(array)
+  array.sort.reverse!
+end
