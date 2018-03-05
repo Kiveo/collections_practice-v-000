@@ -26,5 +26,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array) #change third char to "$" on each element
-  array.collect {|element| element.replace 3, "$"}
+  new_array = []
+  array.collect {|word|
+    x = word.chars
+    x[3] = "$"
+  }
 end
