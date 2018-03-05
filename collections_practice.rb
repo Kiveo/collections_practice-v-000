@@ -34,4 +34,5 @@ def kesha_maker(array) #change third char to "$" on each element
     binding.pry
     x[2] = "$"
   }
+
 end
