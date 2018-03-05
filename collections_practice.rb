@@ -22,6 +22,5 @@ def swap_elements(array) #swap 2nd and 3rd elements
 end
 
 def reverse_array(array)
-  # array.sort
   array.reverse!
 end
