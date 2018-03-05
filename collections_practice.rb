@@ -15,8 +15,8 @@ def swap_elements(array) #swap 2nd and 3rd elements
   x = array.pop #1
   y = array.pop #2
   z = array.pop  #3
-  array.unshift(z)
-  array.unshift(x)
+  array.unshift(y)
+  array.unshift(y)
   array.unshift(y)
   array
 end
